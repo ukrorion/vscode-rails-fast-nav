@@ -39,6 +39,11 @@
           "type": "string",
           "default": "html.erb",
           "description": "Default extension when creating a view"
+        },
+        "rails.openViewOnFirstMatch": {
+          "type": "boolean",
+          "default": "true",
+          "description": "Define whether to open a view or show the list of all views if a folder contains more than one view with the same name."
         }
       }
     },
